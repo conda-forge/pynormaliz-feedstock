@@ -1,5 +1,5 @@
 {% set name = "pynormaliz" %}
-{% set version = "2.16" %}
+{% set version = "2.17" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyNormaliz-{{ version }}.tar.gz
-  sha256: a24c0a42eb87a2ba1a2255e85ce0116f8c07eec2798dca5387b07644cb9b85b9
+  sha256: 79498bbc6472190d01c98ed62c51d43eb32e5429b266a2090e6962bd0a017b6a
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
   skip: True  # [win]
 
