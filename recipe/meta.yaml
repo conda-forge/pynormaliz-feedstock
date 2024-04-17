@@ -21,7 +21,7 @@ requirements:
   host:
     - pip
     - libboost-headers
-    - normaliz
+    - normaliz >=3.10.2
     - python
   run:
     - python
