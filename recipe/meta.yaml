@@ -23,7 +23,7 @@ requirements:
     - pip
     - setuptools
     - libboost-headers
-    - normaliz >=3.10.2
+    - normaliz >=3.11.0
     - python
   run:
     - python
